@@ -1,4 +1,5 @@
 .gradle/
+.kotlin/
 .idea/
 build/
 **/build/
@@ -7,3 +8,25 @@ local.properties
 captures/
 .externalNativeBuild/
 .cxx/
+.DS_Store
+*.log
+
+# Paquetes y artefactos generados
+*.apk
+*.aab
+*.apks
+*.mapping
+
+# Firmas y credenciales
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+secrets.properties
+.env
+.env.*
+app/google-services.json
+
+# Carpetas locales para material privado
+private/
+secrets/
